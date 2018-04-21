@@ -27,3 +27,10 @@ Additional libraries are installed to setup the environment
 ## Testing Framework
 * Enzyme
 * Jest
+* sinon
+
+## Instructions
+
+Run ```yarn start``` to start the application
+
+Run ```yarn test``` to execute the test suite
