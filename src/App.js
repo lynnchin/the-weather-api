@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import CurrentWeatherContainer from './CurrentWeatherContainer';
 
 const App = () => (
   <Router>
@@ -41,19 +41,21 @@ const Home = () => (
 const Melbourne = () => (
   <div>
     <h2>Melbourne</h2>
-
+    <CurrentWeatherContainer location={"37.8136,144.9631"} />
   </div>
 );
 
 const Sydney = () => (
   <div>
     <h2>Sydney</h2>
+    <CurrentWeatherContainer location={'-33.84,151.19'} />
   </div>
 )
 
 const Brisbane = () => (
   <div>
     <h2>Brisbane</h2>
+    <CurrentWeatherContainer location={"-27.46794,153.02809"} />
   </div>
 )
 
