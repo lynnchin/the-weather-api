@@ -27,7 +27,6 @@ Additional libraries are installed to setup the environment
 ## Testing Framework
 * Enzyme
 * Jest
-* sinon
 
 ## Instructions
 
